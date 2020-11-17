@@ -3,5 +3,5 @@ FROM python:2.7
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["app.py"]
+ENTRYPOINT FALSK_APP=app.py flash run --host=0.0.0.0 --port=8080
+
