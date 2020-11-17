@@ -1,4 +1,4 @@
-# app.py - a minimal flask api using flask_restful
+# app.py - a minimal flask api using flask_restful. 
 from flask import Flask
 from flask_restful import Resource, Api
 
